@@ -1,0 +1,21 @@
+{
+  "name": "publisherstudio-core",
+  "displayName": "PublisherStudio Core",
+  "publisher": "publisherstudio",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onCommand:publisherstudio.createProject"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "publisherstudio.createProject",
+        "title": "PublisherStudio: Create New Book Project"
+      }
+    ]
+  },
+  "main": "./out/extension.js"
+}
